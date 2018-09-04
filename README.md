@@ -1,4 +1,4 @@
-# client
+# vue2.0+axios+vuex+node.js+mongoDB+express+bootstrap
 
 > A Vue.js project
 
