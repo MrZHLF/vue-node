@@ -9,6 +9,7 @@ import EditProfile from '@/components/EditProfile'
 import AddExperience from '@/components/AddExperience'
 import AddEducation from '@/components/AddEducation'
 import Profiles from '@/components/Profiles'
+import Profile from '@/components/profile/Profile'
 Vue.use(Router)
 
 export default new Router({
@@ -22,7 +23,8 @@ export default new Router({
 		{ path: '/edit-profile',component: EditProfile },
 		{ path: '/add-experience',component: AddExperience },
 		{ path: '/add-education',component: AddEducation },
-		{ path: '/profiles',component: Profiles }
+		{ path: '/profiles',component: Profiles },
+		{ path: '/profile/:handle',component: Profile }
   ],
 	linkActiveClass: 'active', //当前路由激活状态
 	mode:"history"
