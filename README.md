@@ -16,7 +16,7 @@
 1.如果想运行项目。需要先下载node接口代码，
 
 2. 可以直接在git上下载项目源码。把github下载到本地，
-3. git@github.com:MrZHLF/vue-node.git	
+     git@github.com:MrZHLF/vue-node.git	
 
 ```
 
