@@ -10,6 +10,8 @@ import AddExperience from '@/components/AddExperience'
 import AddEducation from '@/components/AddEducation'
 import Profiles from '@/components/Profiles'
 import Profile from '@/components/profile/Profile'
+import Posts from '@/components/posts/Posts'
+import Post from '@/components/posts/Post'
 Vue.use(Router)
 
 export default new Router({
@@ -24,7 +26,9 @@ export default new Router({
 		{ path: '/add-experience',component: AddExperience },
 		{ path: '/add-education',component: AddEducation },
 		{ path: '/profiles',component: Profiles },
-		{ path: '/profile/:handle',component: Profile }
+		{ path: '/profile/:handle',component: Profile },
+		{ path: '/feed',component: Posts },
+		{ path: '/post/:id',component: Post }
   ],
 	linkActiveClass: 'active', //当前路由激活状态
 	mode:"history"

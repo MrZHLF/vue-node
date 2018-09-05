@@ -47,10 +47,10 @@ export default {
 	  })
   },
   components:{
-	ProfileHeader,
-	ProfileAbout,
-	ProfileCreds,
-	ProfileGithub
+		ProfileHeader,
+		ProfileAbout,
+		ProfileCreds,
+		ProfileGithub
   }
 }
 </script>

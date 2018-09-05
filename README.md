@@ -17,6 +17,8 @@
 
 2. 可以直接在git上下载项目源码。把github下载到本地，
      git@github.com:MrZHLF/vue-node.git	
+3.项目初始化
+		进入当前项目 cnpm install
 
 ```
 
