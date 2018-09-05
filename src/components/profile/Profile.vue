@@ -13,7 +13,8 @@
 				:education="profile.education" 
 				:experience="profile.experience"
 				/>
-			<ProfileGithub/>
+			<ProfileGithub v-if="profile && profile.githubusername" 
+            :username='profile.githubusername' />
 		</div>
 		
 	</div>
@@ -28,7 +29,7 @@ export default {
   name: 'profile',
   data () {
     return {
-		profile:{}
+		profile:null
 	}
   },
   methods:{

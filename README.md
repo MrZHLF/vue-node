@@ -1,7 +1,7 @@
 # vue2.0+axios+vuex+node.js+mongoDB+express+bootstrap
 
 ### 说明:
-> 项目中所有的数据原理，使用node+express搭建数据接口,mongoDB+mlab存储数据。
+> 项目中所有的数据来源，使用node+express搭建数据接口,mongoDB+mlab存储数据。
 > 使用vue2.0对数据的请求，实现数据的增删改查，处理登录token问题，请求拦截，数据管理，组件封装
 
 ### 相关技术

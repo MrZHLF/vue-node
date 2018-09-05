@@ -4,7 +4,8 @@
 			<div class="card card-body bg-info text-white mb-3">
 				<div class="row">
 					<div class="col-4 col-md-3 m-auto">
-						<img v-if="profile.user" :src="profile.user.avatar" alt="">
+						<!-- <img v-if="profile.user" :src="profile.user.avatar" alt=""> -->
+						<img src="http://www.gravatar.com/avatar/637077799a582c6966a5cbe95e11d924?s=200&r=pg&d=mm" class="rouded-circle">
 					</div>
 				</div>
 				<div class="text-center">
@@ -48,4 +49,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.rouded-circle {
+	border-radius: 50%;
+}
 </style>

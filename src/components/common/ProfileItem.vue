@@ -2,9 +2,10 @@
 	<div class="card card-body bg-light mb-3">
 		<div class="row">
 			<div class="col-2">
-				<img v-if="profileItem.user" 
+				<!-- <img v-if="profileItem.user" 
 					:src="profileItem.user.avatar" 
-					style="width: 150px;" class="rouded-circle" alt="">
+					style="width: 150px;" class="rouded-circle" alt=""> -->
+					<img src="http://www.gravatar.com/avatar/637077799a582c6966a5cbe95e11d924?s=200&r=pg&d=mm" alt="" style="width: 150px;" class="rouded-circle">
 			</div>
 			<div class="col-lg-6 col-md-4 col-8">
 				<h3 v-if="profileItem.user">{{profileItem.user.name}}</h3>
@@ -42,4 +43,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+	.rouded-circle{
+		border-radius: 50%;
+	}
 </style>

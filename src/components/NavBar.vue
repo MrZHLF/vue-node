@@ -79,4 +79,7 @@ export default {
 	width: 25px;
 	margin-right: 15px;
 }
+.rouded-circle {
+	border-radius: 50%;
+}
 </style>
