@@ -83,10 +83,10 @@ export default {
   data () {
     return {
       newUser:{
-		  name:'',
-		  email:'',
-		  password:'',
-		  password2:''
+				name:'',
+				email:'',
+				password:'',
+				password2:''
 	  },
 	  errors:{}
     }

@@ -12,6 +12,7 @@
 					v-for="(post,index) in posts"
 					:key="post._id"
 					:post="post"
+					:showAction='true'
 					@update="getPost"
 				></PostFeed/>
 			</div>
@@ -27,9 +28,9 @@ export default {
   name: 'post',
   data () {
     return {
-		posts:[],
-		errors:{}
-	}
+			posts:[],
+			errors:{}
+		}
   },
   beforeRouteEnter(to,from,next) {
   	next(vm => {
@@ -37,20 +38,20 @@ export default {
   	})
   },
   methods:{
-	getPost(){
-		this.$axios.get("/api/posts").then(res => {
-			this.posts = res.data
-			console.log(this.posts)
-		}).catch(err => {
-			this.errors = err.response.data
-		})
-	},
+		getPost(){
+			this.$axios.get("/api/posts").then(res => {
+				this.posts = res.data
+				// console.log(this.posts)
+			}).catch(err => {
+				this.errors = err.response.data
+			})
+		},
 	
   },
   components:{
-	postfrom,
-	PostFeed
-  },
+		postfrom,
+		PostFeed
+	},
 }
 </script>
 

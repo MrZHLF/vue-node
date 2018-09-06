@@ -45,7 +45,7 @@ export default {
         this.client_secret
       }`
     ).then(res =>  res.json()).then(data => {
-			console.log(data)
+			// console.log(data)
 			this.repos = data
 		}).catch(err => {
 			console.log(err)

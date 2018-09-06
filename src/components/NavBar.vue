@@ -7,9 +7,9 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="mobile-nav">
 			<ul class="navbar-nav mr-auto">
-			  <li class="nav-item">
+			  <!-- <li class="nav-item">
 					<a class="nav-link"> 米修在线</a>
-			  </li>
+			  </li> -->
 				<li class="nav-item">
 					<router-link to='/profiles' class="nav-link">开发者</router-link>
 				</li>
