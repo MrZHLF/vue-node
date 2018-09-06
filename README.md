@@ -19,9 +19,14 @@
      git@github.com:MrZHLF/vue-node.git	
 3.项目初始化
 		进入当前项目 cnpm install
-
+3.项目运行
+	cnpm run dev
 ```
 
 ## 成果展示
 ![avatar](./static/1.png)
 ![avatar](./static/2.png)
+![avatar](./static/3.png)
+![avatar](./static/4.png)
+![avatar](./static/5.png)
+![avatar](./static/6.png)
