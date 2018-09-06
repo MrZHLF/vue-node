@@ -14,13 +14,15 @@
 
 ``` bash
 1.如果想运行项目。需要先下载node接口代码，
-
-2. 可以直接在git上下载项目源码。把github下载到本地，
+git@github.com:MrZHLF/node-vue.git
+2. 可以直接在git上下载项目源码。把github下载到本地(vue项目，下载文件放到node目录里面)，
      git@github.com:MrZHLF/vue-node.git	
-3.项目初始化
-		进入当前项目 cnpm install
-3.项目运行
+3.项目初始化，下载所需要的依赖(现在node目录初始化一次，在进入vue项目目录初始化一下)
+	 cnpm install
+4.项目运行(在node目录进行运行，不要进行vue项目中运行,)
 	cnpm run dev
+	
+5如果想看到效果，这两个文件都需要下载，才能看到效果
 ```
 
 ## 成果展示
